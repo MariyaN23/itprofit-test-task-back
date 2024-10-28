@@ -5,7 +5,8 @@ import {formRouter} from "./form/form-router.js";
 const app = express()
 
 export const corsOptions = {
-    origin: 'http://localhost:8080'
+    //origin: 'http://localhost:8080'
+    origin: 'https://mariyan23.github.io/itprofit-test-task'
 }
 
 app.use(cors(corsOptions))
