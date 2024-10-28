@@ -6,7 +6,7 @@ const app = express()
 
 export const corsOptions = {
     //origin: 'http://localhost:8080'
-    origin: 'https://mariyan23.github.io/itprofit-test-task'
+    origin: 'https://mariyan23.github.io',
 }
 
 app.use(cors(corsOptions))
